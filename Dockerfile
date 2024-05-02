@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jdk as build
+FROM openjdk:17-jdk as build
 
 COPY . /app
 WORKDIR /app
